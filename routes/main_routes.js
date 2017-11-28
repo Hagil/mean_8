@@ -23,7 +23,7 @@ function do_read(req, res) {
             gender: 1
         })
         .then(function (results) {
-            console.log(results);
+           // console.log(results);
             res.json(results);
         });
 }
